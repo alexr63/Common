@@ -29,5 +29,11 @@ namespace Common
             }
             return currencyCode;
         }
+
+        public static bool IsNumeric(this string s)
+        {
+            float output;
+            return float.TryParse(s, out output);
+        }
     }
 }
