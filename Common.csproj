@@ -35,6 +35,7 @@
       <HintPath>..\..\..\Home\Cowrie\selectedhot.local\bin\DotNetNuke.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -43,6 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Geocoder.cs" />
+    <Compile Include="GeoLoc.cs" />
     <Compile Include="MyLogger.cs" />
     <Compile Include="Utils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
