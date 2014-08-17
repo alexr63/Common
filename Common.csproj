@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enums.cs" />
     <Compile Include="Geocoder.cs" />
     <Compile Include="GeoLoc.cs" />
     <Compile Include="MyLogger.cs" />
