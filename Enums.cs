@@ -9,18 +9,11 @@ namespace Common
     {
         public enum ProductTypeEnum
         {
-            Hotels = 1,
-            Clothes,
-            Books,
-            HomeAndGardens,
-            Boats
-        }
-
-        public enum DisplayModeEnum
-        {
-            Hotels = 1,
-            Products,
-            Boats
+            Hotel = 1,
+            Cloth,
+            Book,
+            HomeAndGarden,
+            Boat
         }
     }
 }
